@@ -5,8 +5,8 @@ import class Dispatch.DispatchQueue
 import class Dispatch.DispatchWorkItem
 import func Glibc.close
 import func Glibc.read
-import struct TrailBlazer.GenericPath
-import protocol TrailBlazer.Path
+import struct Pathman.GenericPath
+import protocol Pathman.Path
 
 public final class Inotify {
     public let fileDescriptor: FileDescriptor
