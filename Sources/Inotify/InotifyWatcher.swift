@@ -2,8 +2,8 @@ import func Cinotify.inotify_add_watch
 import func Cinotify.inotify_rm_watch
 import struct Dispatch.DispatchQoS
 import class Dispatch.DispatchQueue
-import struct TrailBlazer.GenericPath
-import protocol TrailBlazer.Path
+import struct Pathman.GenericPath
+import protocol Pathman.Path
 
 public protocol InotifyEventDelegate: AnyObject {
     var queue: DispatchQueue { get }
