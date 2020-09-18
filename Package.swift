@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "Inotify",
-            dependencies: ["Cinotify", "Cselect", "ErrNo", "TrailBlazer"]),
+            dependencies: ["Cinotify", "Cselect", "ErrNo", "Pathman"]),
         .testTarget(
             name: "InotifyTests",
             dependencies: ["Inotify", "ErrNo"])
