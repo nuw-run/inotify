@@ -14,7 +14,7 @@ let package = Package(
         .package(url: "https://github.com/Ponyboy47/Cinotify.git", from: "3.0.0"),
         .package(url: "https://github.com/Ponyboy47/Cselect.git", from: "2.0.0"),
         .package(url: "https://github.com/Ponyboy47/ErrNo.git", from: "0.5.2"),
-        .package(url: "https://github.com/Ponyboy47/TrailBlazer.git", from: "0.16.0")
+        .package(url: "https://github.com/Ponyboy47/Pathman.git", from: "0.16.0")
     ],
     targets: [
         .target(
