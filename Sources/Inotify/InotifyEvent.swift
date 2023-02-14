@@ -1,5 +1,4 @@
-import struct Cinotify.inotify_event
-import let Cinotify.NAME_MAX
+import Cinotify
 
 /**
  This struct is so that we can actually get event names from the struct. Based off the spec that the inotify_event struct is:
